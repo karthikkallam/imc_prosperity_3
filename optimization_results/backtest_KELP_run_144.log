@@ -1,0 +1,32 @@
+--- Parameters for Run KELP_run_144 ---
+{
+  "RAINFOREST_RESIN": {
+    "fair_value": 10000,
+    "take_width": 1,
+    "clear_width": 0,
+    "disregard_edge": 1,
+    "join_edge": 2,
+    "default_edge": 4,
+    "soft_position_limit": 25
+  },
+  "KELP": {
+    "take_width": 0.5,
+    "clear_width": 0,
+    "prevent_adverse": true,
+    "adverse_volume": 10,
+    "reversion_beta": 0.0,
+    "disregard_edge": 1,
+    "join_edge": 0,
+    "default_edge": 1
+  }
+}
+
+--- STDOUT (Failure) ---
+
+--- STDERR (Failure) ---
+Usage: python -m prosperity3bt [OPTIONS] ALGORITHM DAYS...
+Try 'python -m prosperity3bt --help' for help.
+╭─ Error ─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│ No such option: --output (Possible options: --no-out, --out)                                                                        │
+╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+

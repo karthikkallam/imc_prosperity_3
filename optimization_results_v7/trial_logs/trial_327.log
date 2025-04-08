@@ -1,0 +1,45 @@
+--- Trial 327 Params ---
+{
+  "RAINFOREST_RESIN": {
+    "anchor_value": 10000,
+    "use_ema": true,
+    "ema_alpha": 0.1522933356754031,
+    "take_width": 1.5,
+    "clear_width": 0.75,
+    "disregard_edge": 2,
+    "join_edge": 2,
+    "default_edge": 3,
+    "skew_factor": 0.04993406413954064,
+    "soft_limit_ratio": 0.5426195778563355
+  },
+  "KELP": {
+    "use_ema": true,
+    "ema_alpha": 0.15961388007326222,
+    "reversion_beta": 0.06000000000000005,
+    "take_width": 0.5,
+    "clear_width": -0.5,
+    "prevent_adverse": false,
+    "adverse_volume": 20,
+    "disregard_edge": 0,
+    "join_edge": 0,
+    "default_edge": 1,
+    "skew_factor": 0.07502262148832187,
+    "soft_limit_ratio": 0.5300345892599467
+  }
+}
+
+--- STDOUT ---
+Backtesting /private/var/folders/5c/g6_x70k50j921j8vv8hk7mn80000gn/T/optuna_trial_327_s6h3os7a/trader.py on round 0 day -2
+KELP: 1,247
+RAINFOREST_RESIN: 2,145
+Total profit: 3,392
+
+
+--- STDERR ---
+
+  0%|          | 0/2000 [00:00<?, ?it/s]
+ 31%|###       | 613/2000 [00:00<00:00, 6129.09it/s]
+ 61%|######1   | 1226/2000 [00:00<00:00, 2653.71it/s]
+ 80%|#######9  | 1591/2000 [00:00<00:00, 1719.11it/s]
+ 92%|#########1| 1835/2000 [00:00<00:00, 1759.51it/s]
+100%|##########| 2000/2000 [00:00<00:00, 2075.60it/s]

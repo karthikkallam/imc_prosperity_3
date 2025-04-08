@@ -1,0 +1,41 @@
+--- Trial 406 Params ---
+{
+  "RAINFOREST_RESIN": {
+    "anchor_value": 10000,
+    "use_ema": true,
+    "ema_alpha": 0.14700559625277498,
+    "take_width": 1.5,
+    "clear_width": 0.75,
+    "disregard_edge": 2,
+    "join_edge": 2,
+    "default_edge": 3,
+    "skew_factor": 0.047704667320136375,
+    "soft_limit_ratio": 0.5276104755275163
+  },
+  "KELP": {
+    "use_ema": true,
+    "ema_alpha": 0.15618863147428427,
+    "reversion_beta": 0.040000000000000036,
+    "take_width": 0.5,
+    "clear_width": -0.5,
+    "prevent_adverse": false,
+    "adverse_volume": 20,
+    "disregard_edge": 0,
+    "join_edge": 0,
+    "default_edge": 1,
+    "skew_factor": 0.06432398326805454,
+    "soft_limit_ratio": 0.5279869340182973
+  }
+}
+
+--- STDOUT ---
+Backtesting /private/var/folders/5c/g6_x70k50j921j8vv8hk7mn80000gn/T/optuna_trial_406_2eaz_lxp/trader.py on round 0 day -2
+KELP: 1,247
+RAINFOREST_RESIN: 2,145
+Total profit: 3,392
+
+
+--- STDERR ---
+
+  0%|          | 0/2000 [00:00<?, ?it/s]
+100%|##########| 2000/2000 [00:00<00:00, 25639.36it/s]

@@ -1,0 +1,36 @@
+--- Trial 447 Params ---
+{
+  "RAINFOREST_RESIN": {
+    "anchor_value": 10000,
+    "use_ema": true,
+    "ema_alpha": 0.155697798204687,
+    "take_width": 1.5,
+    "clear_width": 0.75,
+    "disregard_edge": 2,
+    "join_edge": 2,
+    "default_edge": 3,
+    "skew_factor": 0.04157055661643408,
+    "soft_limit_ratio": 0.5158110719310217
+  },
+  "KELP": {
+    "use_ema": true,
+    "ema_alpha": 0.15023911248842628,
+    "reversion_beta": 0.020000000000000018,
+    "take_width": 0.5,
+    "clear_width": -0.5,
+    "prevent_adverse": false,
+    "adverse_volume": 20,
+    "disregard_edge": 0,
+    "join_edge": 0,
+    "default_edge": 1,
+    "skew_factor": 0.06689347893127826,
+    "soft_limit_ratio": 0.4908355188284523
+  }
+}
+
+--- STDOUT ---
+Warning: no data found for round 1
+Error: did not find data for any requested round/day
+
+
+--- STDERR ---

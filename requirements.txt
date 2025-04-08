@@ -1,0 +1,4 @@
+pandas
+numpy
+jsonpickle
+# math and typing are built-in

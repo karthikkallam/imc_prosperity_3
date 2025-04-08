@@ -1,0 +1,28 @@
+{
+    "RAINFOREST_RESIN": {
+        "anchor_value": 10000,
+        "use_ema": true,
+        "ema_alpha": 0.14106816529429914,
+        "take_width": 1.5,
+        "clear_width": 0.75,
+        "disregard_edge": 2,
+        "join_edge": 2,
+        "default_edge": 3,
+        "skew_factor": 0.04539958659687427,
+        "soft_limit_ratio": 0.5376479743047736
+    },
+    "KELP": {
+        "use_ema": true,
+        "ema_alpha": 0.15551967731432784,
+        "reversion_beta": 0.020000000000000018,
+        "take_width": 0.5,
+        "clear_width": -0.5,
+        "prevent_adverse": false,
+        "adverse_volume": 20,
+        "disregard_edge": 0,
+        "join_edge": 0,
+        "default_edge": 1,
+        "skew_factor": 0.07160406126373736,
+        "soft_limit_ratio": 0.5068859320827395
+    }
+}
